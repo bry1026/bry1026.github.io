@@ -1,0 +1,436 @@
+{
+ "la-mia-famiglia": [
+  {
+   "file": "images/la-mia-famiglia/1.jpg",
+   "source": "https://img1.wsimg.com/isteam/ip/ef89a3c3-6414-441a-91e3-36aaf7ac5f98/WhatsApp%20Image%202020-07-23%20at%2010.31.51%20AM.jpeg/:/rs=w:960",
+   "w": 960,
+   "h": 641,
+   "kb": 118
+  },
+  {
+   "file": "images/la-mia-famiglia/2.jpg",
+   "source": "https://img1.wsimg.com/isteam/ip/ef89a3c3-6414-441a-91e3-36aaf7ac5f98/WhatsApp%20Image%202020-07-23%20at%2010.31.52%20AM.jpeg/:/rs=w:960",
+   "w": 960,
+   "h": 641,
+   "kb": 120
+  },
+  {
+   "file": "images/la-mia-famiglia/3.jpg",
+   "source": "https://img1.wsimg.com/isteam/ip/ef89a3c3-6414-441a-91e3-36aaf7ac5f98/WhatsApp%20Image%202020-07-23%20at%209.57.06%20AM.jpeg/:/rs=w:960",
+   "w": 960,
+   "h": 640,
+   "kb": 101
+  },
+  {
+   "file": "images/la-mia-famiglia/4.jpg",
+   "source": "https://img1.wsimg.com/isteam/ip/ef89a3c3-6414-441a-91e3-36aaf7ac5f98/f7c7f68b-7709-4fb1-8835-82f8151f53a0.jpg/:/rs=w:960",
+   "w": 713,
+   "h": 475,
+   "kb": 57
+  }
+ ],
+ "tres-casitas": [
+  {
+   "file": "images/tres-casitas/1.jpg",
+   "source": "https://haciendatrescasitas.com/wp-content/uploads/2026/02/BANNER-HORIZONTAL-AREA-51.2-2160-x-500-px-5-1024x682.jpg",
+   "w": 1024,
+   "h": 682,
+   "kb": 149
+  },
+  {
+   "file": "images/tres-casitas/2.jpg",
+   "source": "https://haciendatrescasitas.com/wp-content/uploads/2026/02/Diseno-sin-titulo-99-1024x1024.jpg",
+   "w": 1024,
+   "h": 1024,
+   "kb": 173
+  },
+  {
+   "file": "images/tres-casitas/3.jpg",
+   "source": "https://haciendatrescasitas.com/wp-content/uploads/2026/02/Diseno-sin-titulo-2026-02-03T183603.712-1024x1024.jpg",
+   "w": 1024,
+   "h": 1024,
+   "kb": 137
+  },
+  {
+   "file": "images/tres-casitas/4.jpg",
+   "source": "https://haciendatrescasitas.com/wp-content/uploads/2026/02/Diseno-sin-titulo-2026-02-03T183609.993-1024x1024.jpg",
+   "w": 1024,
+   "h": 1024,
+   "kb": 145
+  }
+ ],
+ "jardines-del-castillo": [
+  {
+   "file": "images/jardines-del-castillo/1.jpg",
+   "source": "https://static.wixstatic.com/media/43b62c_d4f5b6aa768444cca5b79e71b291ec3f~mv2.jpg/v1/fit/w_960,h_640,q_85/x.jpg",
+   "w": 426,
+   "h": 640,
+   "kb": 84
+  },
+  {
+   "file": "images/jardines-del-castillo/2.jpg",
+   "source": "https://static.wixstatic.com/media/43b62c_f64d748ee0a843dd90e0ac4dbf91c352~mv2.jpg/v1/fit/w_960,h_640,q_85/x.jpg",
+   "w": 426,
+   "h": 640,
+   "kb": 67
+  },
+  {
+   "file": "images/jardines-del-castillo/3.jpg",
+   "source": "https://static.wixstatic.com/media/43b62c_5a3d52a0631646e8b8ef4fec78929bf9~mv2.jpg/v1/fit/w_960,h_640,q_85/x.jpg",
+   "w": 426,
+   "h": 640,
+   "kb": 74
+  },
+  {
+   "file": "images/jardines-del-castillo/4.jpg",
+   "source": "https://static.wixstatic.com/media/43b62c_1658c37be31f480f8569dc1c398af268~mv2.jpg/v1/fit/w_960,h_640,q_85/x.jpg",
+   "w": 960,
+   "h": 639,
+   "kb": 106
+  },
+  {
+   "file": "images/jardines-del-castillo/5.jpg",
+   "source": "https://static.wixstatic.com/media/43b62c_a68ce13efd264681849774aa84e01125~mv2.jpg/v1/fit/w_960,h_640,q_85/x.jpg",
+   "w": 959,
+   "h": 640,
+   "kb": 150
+  }
+ ],
+ "villa-flor": [
+  {
+   "file": "images/villa-flor/1.jpg",
+   "source": "https://haciendavillaflor.com/wp-content/uploads/2025/08/IMG_0323-1.jpeg",
+   "w": 1024,
+   "h": 654,
+   "kb": 150
+  },
+  {
+   "file": "images/villa-flor/2.jpg",
+   "source": "https://haciendavillaflor.com/wp-content/uploads/2025/08/IMG_0457-1.jpeg",
+   "w": 1024,
+   "h": 677,
+   "kb": 146
+  },
+  {
+   "file": "images/villa-flor/3.jpg",
+   "source": "https://haciendavillaflor.com/wp-content/uploads/2025/08/1E17A318-D59D-46B8-9743-7B92DB520270.JPG.jpeg",
+   "w": 819,
+   "h": 1024,
+   "kb": 129
+  },
+  {
+   "file": "images/villa-flor/4.jpg",
+   "source": "https://haciendavillaflor.com/wp-content/uploads/2025/08/IMG_1284.png",
+   "w": 1024,
+   "h": 768,
+   "kb": 151
+  },
+  {
+   "file": "images/villa-flor/5.jpg",
+   "source": "https://haciendavillaflor.com/wp-content/uploads/2025/08/IMG_1293.png",
+   "w": 1024,
+   "h": 768,
+   "kb": 134
+  }
+ ],
+ "munoz": [
+  {
+   "file": "images/munoz/1.jpg",
+   "source": "https://haciendamunozpr.com/cdn/shop/articles/IMG_3435_2.jpg?width=960",
+   "w": 960,
+   "h": 540,
+   "kb": 151
+  },
+  {
+   "file": "images/munoz/2.jpg",
+   "source": "https://haciendamunozpr.com/cdn/shop/files/24610A03-DD69-4C32-A957-3244F87EC539.jpg?width=960",
+   "w": 960,
+   "h": 540,
+   "kb": 145
+  },
+  {
+   "file": "images/munoz/3.jpg",
+   "source": "https://haciendamunozpr.com/cdn/shop/files/IMG_3954.jpg?width=960",
+   "w": 960,
+   "h": 720,
+   "kb": 142
+  },
+  {
+   "file": "images/munoz/4.jpg",
+   "source": "https://haciendamunozpr.com/cdn/shop/files/PHOTO-2024-08-27-20-52-58.jpg?width=960",
+   "w": 960,
+   "h": 640,
+   "kb": 149
+  }
+ ],
+ "casa-de-espana": [
+  {
+   "file": "images/casa-de-espana/1.jpg",
+   "source": "https://www.casadeespanapr.com/images/31514306153.jpg",
+   "w": 1080,
+   "h": 720,
+   "kb": 146
+  },
+  {
+   "file": "images/casa-de-espana/2.jpg",
+   "source": "https://www.casadeespanapr.com/images/KM-BODA-350_boda-en-casa-espa%C3%B1a-viejo-san-juan1514392389.jpg",
+   "w": 1200,
+   "h": 802,
+   "kb": 146
+  },
+  {
+   "file": "images/casa-de-espana/3.jpg",
+   "source": "https://www.casadeespanapr.com/images/11514306153.jpg",
+   "w": 1200,
+   "h": 675,
+   "kb": 129
+  },
+  {
+   "file": "images/casa-de-espana/4.jpg",
+   "source": "https://www.casadeespanapr.com/images/21514306153.jpg",
+   "w": 720,
+   "h": 960,
+   "kb": 116
+  }
+ ],
+ "campo-rico": [
+  {
+   "file": "images/campo-rico/1.jpg",
+   "source": "https://haciendacamporico.com/wp-content/uploads/2021/07/10.jpg",
+   "w": 661,
+   "h": 496,
+   "kb": 63
+  },
+  {
+   "file": "images/campo-rico/2.jpg",
+   "source": "https://haciendacamporico.com/wp-content/uploads/2021/07/IMG-20160721-WA0010-1-1-1024x768.jpg",
+   "w": 1024,
+   "h": 768,
+   "kb": 100
+  },
+  {
+   "file": "images/campo-rico/3.jpg",
+   "source": "https://haciendacamporico.com/wp-content/uploads/2021/07/WhatsApp-Image-2020-08-05-at-2.30.52-PM-1024x768.jpeg",
+   "w": 1024,
+   "h": 768,
+   "kb": 103
+  },
+  {
+   "file": "images/campo-rico/4.jpg",
+   "source": "https://haciendacamporico.com/wp-content/uploads/2021/07/WhatsApp-Image-2020-08-05-at-2.34.46-PM-1024x768.jpeg",
+   "w": 1024,
+   "h": 768,
+   "kb": 72
+  },
+  {
+   "file": "images/campo-rico/5.jpg",
+   "source": "https://haciendacamporico.com/wp-content/uploads/2021/07/5.jpg",
+   "w": 772,
+   "h": 515,
+   "kb": 59
+  }
+ ],
+ "villa-sotomayor": [
+  {
+   "file": "images/villa-sotomayor/1.jpg",
+   "source": "https://images.squarespace-cdn.com/content/v1/67dedfa96ce5cb51c20f3454/63c157fe-ca3a-4554-a4c6-7e009f72eed4/IMG_3316.jpeg?format=1000w",
+   "w": 675,
+   "h": 1200,
+   "kb": 141
+  },
+  {
+   "file": "images/villa-sotomayor/2.jpg",
+   "source": "https://images.squarespace-cdn.com/content/v1/67dedfa96ce5cb51c20f3454/99312228-3ab5-40df-a1ba-59707daf4984/PHOTO-2025-02-19-13-10-07.jpeg?format=1000w",
+   "w": 1000,
+   "h": 562,
+   "kb": 147
+  },
+  {
+   "file": "images/villa-sotomayor/3.jpg",
+   "source": "https://images.squarespace-cdn.com/content/v1/67dedfa96ce5cb51c20f3454/c7b0b5dd-8ca5-4fcd-8f77-ec329993ec61/IMG_1606.jpeg?format=1000w",
+   "w": 1000,
+   "h": 619,
+   "kb": 120
+  },
+  {
+   "file": "images/villa-sotomayor/4.jpg",
+   "source": "https://images.squarespace-cdn.com/content/v1/67dedfa96ce5cb51c20f3454/ad0dc8fe-9878-4dbe-a595-895a431a5fa9/IMG_1605.jpeg?format=1000w",
+   "w": 1000,
+   "h": 613,
+   "kb": 74
+  }
+ ],
+ "el-jibarito": [
+  {
+   "file": "images/el-jibarito/1.jpg",
+   "source": "https://www.haciendaeljibarito.com/wp-content/uploads/2023/09/5Z6A6764.jpg",
+   "w": 1200,
+   "h": 800,
+   "kb": 151
+  },
+  {
+   "file": "images/el-jibarito/2.jpg",
+   "source": "https://www.haciendaeljibarito.com/wp-content/uploads/2023/09/5Z6A6746.jpg",
+   "w": 1200,
+   "h": 800,
+   "kb": 143
+  },
+  {
+   "file": "images/el-jibarito/3.jpg",
+   "source": "https://www.haciendaeljibarito.com/wp-content/uploads/2023/09/20220319_181953.jpg",
+   "w": 900,
+   "h": 1200,
+   "kb": 152
+  },
+  {
+   "file": "images/el-jibarito/4.jpg",
+   "source": "https://www.haciendaeljibarito.com/wp-content/uploads/2023/09/IMG_7392.jpg",
+   "w": 1200,
+   "h": 900,
+   "kb": 149
+  },
+  {
+   "file": "images/el-jibarito/5.jpg",
+   "source": "https://www.haciendaeljibarito.com/wp-content/uploads/2023/11/image00004.jpg",
+   "w": 675,
+   "h": 1200,
+   "kb": 144
+  }
+ ],
+ "el-bungalow": [
+  {
+   "file": "images/el-bungalow/1.jpg",
+   "source": "https://salonbungalow.com/wp-content/uploads/2025/05/329702471_530751312487565_4198323878366425860_n.jpg",
+   "w": 1200,
+   "h": 800,
+   "kb": 155
+  },
+  {
+   "file": "images/el-bungalow/2.jpg",
+   "source": "https://salonbungalow.com/wp-content/uploads/2025/05/salonbungalow_3.png",
+   "w": 250,
+   "h": 250,
+   "kb": 16
+  },
+  {
+   "file": "images/el-bungalow/3.jpg",
+   "source": "https://salonbungalow.com/wp-content/uploads/2025/05/salonbungalow_4.png",
+   "w": 250,
+   "h": 250,
+   "kb": 18
+  },
+  {
+   "file": "images/el-bungalow/4.jpg",
+   "source": "https://salonbungalow.com/wp-content/uploads/2025/05/salonbungalow_7.png",
+   "w": 250,
+   "h": 250,
+   "kb": 15
+  }
+ ],
+ "castillo-serralles": [
+  {
+   "file": "images/castillo-serralles/1.jpg",
+   "source": "https://museocastilloserrallespr.com/wp-content/uploads/2024/02/DSC_1255.jpg",
+   "w": 1200,
+   "h": 480,
+   "kb": 111
+  },
+  {
+   "file": "images/castillo-serralles/2.jpg",
+   "source": "https://museocastilloserrallespr.com/wp-content/uploads/2024/02/DSC_1314.jpg",
+   "w": 600,
+   "h": 300,
+   "kb": 51
+  },
+  {
+   "file": "images/castillo-serralles/3.jpg",
+   "source": "https://museocastilloserrallespr.com/wp-content/uploads/2024/02/DSC_8285.jpg",
+   "w": 600,
+   "h": 400,
+   "kb": 63
+  },
+  {
+   "file": "images/castillo-serralles/4.jpg",
+   "source": "https://museocastilloserrallespr.com/wp-content/uploads/2024/02/102668056_3092512047510189_5414736132732616704_n.jpg",
+   "w": 1024,
+   "h": 768,
+   "kb": 169
+  }
+ ],
+ "hacienda-santiago": [
+  {
+   "file": "images/hacienda-santiago/1.jpg",
+   "source": "haciendasantiagopr.com",
+   "w": 1200,
+   "h": 900,
+   "kb": 161
+  },
+  {
+   "file": "images/hacienda-santiago/2.jpg",
+   "source": "haciendasantiagopr.com",
+   "w": 1200,
+   "h": 677,
+   "kb": 148
+  },
+  {
+   "file": "images/hacienda-santiago/3.jpg",
+   "source": "haciendasantiagopr.com",
+   "w": 720,
+   "h": 900,
+   "kb": 152
+  }
+ ],
+ "marias-luxury-villa": [
+  {
+   "file": "images/marias-luxury-villa/1.jpg",
+   "source": "mariasbeach.com",
+   "w": 1024,
+   "h": 684,
+   "kb": 146
+  },
+  {
+   "file": "images/marias-luxury-villa/2.jpg",
+   "source": "mariasbeach.com",
+   "w": 1024,
+   "h": 768,
+   "kb": 155
+  },
+  {
+   "file": "images/marias-luxury-villa/3.jpg",
+   "source": "mariasbeach.com",
+   "w": 960,
+   "h": 1200,
+   "kb": 179
+  },
+  {
+   "file": "images/marias-luxury-villa/4.jpg",
+   "source": "mariasbeach.com",
+   "w": 1024,
+   "h": 684,
+   "kb": 132
+  },
+  {
+   "file": "images/marias-luxury-villa/5.jpg",
+   "source": "mariasbeach.com",
+   "w": 1024,
+   "h": 768,
+   "kb": 136
+  }
+ ],
+ "siesta-alegre": [
+  {
+   "file": "images/siesta-alegre/1.jpg",
+   "source": "Siesta Alegre 2027 wedding brochure (emailed PDF)",
+   "w": 1083,
+   "h": 677,
+   "kb": 131
+  },
+  {
+   "file": "images/siesta-alegre/2.jpg",
+   "source": "Siesta Alegre 2027 wedding brochure (emailed PDF)",
+   "w": 662,
+   "h": 416,
+   "kb": 83
+  }
+ ]
+}

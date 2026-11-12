@@ -3,7 +3,7 @@
 // Privacy: never put venue staff phone numbers or emails in this file (the site is public).
 
 window.SITE = {
-  updated: "Fri Nov 6, 2026",
+  updated: "Thu Nov 12, 2026",
   couple: "Bryan & Cristal",
   date: { main: "Sat Nov 13, 2027", backup: "Sat Nov 20, 2027", guests: "about 100" },
 
@@ -45,7 +45,7 @@ window.SITE = {
       price: "Package with their food (6 hrs)", priceNote: "Extra hours $700 + tax each; $1,070 holds the date",
       ends: "Not stated", ownFood: false, ownDrinks: true, corkage: "No corkage; bartender included",
       distance: "About 25 min from SJU (est.)",
-      take: "Closest to San Juan, covered tent, our own alcohol free. Their food is required.",
+      take: "FaceTime tour confirmed: Fri Nov 13 at 12:00 PM Eastern (1:00 PM Puerto Rico time) with Carol Castillo. Closest to San Juan, covered tent, our own alcohol free. Their food is required.",
       link: "https://www.instagram.com/losjardinesdelcastillo/", linkLabel: "Instagram",
       photos: ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg"] },
 
@@ -157,6 +157,7 @@ window.SITE = {
   // Newest first. Copy an entry, change the fields, put it at the top.
   // tone: "good" (green), "wait" (amber), "bad" (red), or "" (neutral)
   journal: [
+    { date: "Nov 12", time: "6:01 PM", title: "Video tours: one confirmed, five pending", text: "Confirmed: FaceTime with Los Jardines del Castillo (Trujillo Alto) on Fri Nov 13 at 12:00 PM Eastern (1:00 PM Puerto Rico time), with Carol Castillo. Video-tour requests went out Nov 12 to Hacienda Siesta Alegre, Hacienda Campo Rico, Casa de España, Hacienda Santiago and Hacienda La Mia Famiglia; still waiting on replies. Windows we asked for: Fri Nov 13, 12–1 PM or after 5 PM Eastern, or Sat Nov 14, 9 AM–noon Eastern.", tag: "Video tour", tone: "good" },
     { date: "Nov 6", time: "12:14 PM", title: "Scouting trip: prefer Thu–Sun", text: "You and Cristal want a Thursday-to-Sunday trip rather than a full work week. Site options and tour drafts were switched to Thu–Sun windows. No date is locked yet.", tag: "Preference", tone: "" },
     { date: "Oct 30", time: "3:59 PM", title: "María's Luxury Villa (Rincón): both dates open", text: "Villa Bajo Blanco only fits 40, so they offered their sister beach villa for 100. $10,543.50 for a 3-night stay including a $3,000 event fee. We bring everything.", tag: "Available", tone: "good" },
     { date: "Oct 30", time: "3:45 PM", title: "Hacienda Cadenas (Carolina): wants their web form", text: "Prices only come by filling in the contact form on their site.", tag: "Form needed", tone: "wait" },

@@ -9,7 +9,8 @@ index.html        Page shell: top tabs + one <section> per view
 style.css         All styling (mobile-first)
 app.js            Renders everything from data.js; tabs, filters, carousels
 data.js           ALL content lives here (venues, journal, trip, ruled out, home)
-images/<slug>/    Venue photos, 1.jpg, 2.jpg, … (max 1200px, about 150 KB each)
+images/<slug>/    Original venue JPGs (kept local; not used on the live site)
+images/<slug>.js  Base64 data-URI photos for GitHub Pages, one file per venue
 _preview/         Local screenshots for checking (not needed on the live site)
 .nojekyll         Tells GitHub Pages to serve files as-is
 ```
@@ -33,7 +34,7 @@ Views are tabs on one page, using the URL hash: `#home`, `#venues`, `#updates`, 
 
 **Rule a venue out:** remove it from `venues` and add `{ name: "…", why: "…" }` to `ruledOut`.
 
-**Add photos (including screenshots):** drop JPG/PNG files in `images/<slug>/` and list the file names in that venue's `photos: [ … ]`. The first one is the cover. Keep files under about 200 KB (e.g. 1200px wide, JPEG quality 75).
+**Add photos (including screenshots):** drop JPG files in `images/<slug>/` and list the file names in that venue's `photos: [ … ]`. The first one is the cover. Then rebuild `images/<slug>.js` (carousels on the live site load those files, not the JPGs). Shrink photos to about 800px on the long side, JPEG quality 65, and encode them as `data:image/jpeg;base64,...` in a file that sets `window.PHOTOS["<slug>"] = [ ... ]`. The page loads each venue's JS only when its card is about to appear, so the home page stays light.
 
 ## Privacy
 

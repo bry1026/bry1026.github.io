@@ -70,7 +70,7 @@ main{max-width:920px;margin:0 auto;padding:16px 16px 40px}
 .dots button{width:8px;height:8px;padding:0;border-radius:50%;border:0;background:rgba(255,255,255,.55);cursor:pointer}
 .dots button.on{background:#fff;width:18px;border-radius:4px}
 .rank{position:absolute;top:10px;left:10px;background:rgba(15,94,90,.92);color:#fff;font:600 13px Inter;padding:4px 10px;border-radius:999px}
-.nophoto{display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:14px;padding:20px;text-align:center}
+.nophoto{display:flex;align-items:center;justify-content:center;flex:0 0 100%;width:100%;height:100%;color:var(--muted);font-size:14px;padding:20px;text-align:center}
 .body{padding:16px 16px 18px}
 .title{display:flex;justify-content:space-between;align-items:start;gap:10px}
 .title h3{font-size:20px}

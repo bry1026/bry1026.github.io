@@ -32,10 +32,59 @@
     if (filter === "byo") return v.ownFood === true && v.ownDrinks === true;
     return true;
   }
-  function carousel(v, rank) {
-    var imgs = (v.photos || []).map(function (f, i) {
-      return '<img src="images/' + v.slug + "/" + f + '" alt="' + esc(v.name) + " photo " + (i + 1) + '" loading="' + (rank < 3 && i === 0 ? "eager" : "lazy") + '" draggable="false">';
+  window.PHOTOS = window.PHOTOS || {};
+  var photoLoads = {};
+  function loadPhotos(slug) {
+    if (window.PHOTOS[slug] && window.PHOTOS[slug].length) return Promise.resolve(window.PHOTOS[slug]);
+    if (photoLoads[slug]) return photoLoads[slug];
+    photoLoads[slug] = new Promise(function (resolve) {
+      var s = document.createElement("script");
+      s.src = "images/" + slug + ".js";
+      s.onload = function () { resolve(window.PHOTOS[slug] || []); };
+      s.onerror = function () { photoLoads[slug] = null; resolve([]); };
+      document.head.appendChild(s);
+    });
+    return photoLoads[slug];
+  }
+  function photoImgs(v, rank) {
+    var list = window.PHOTOS[v.slug] || [];
+    if (!list.length) return '<div class="nophoto" data-pending="' + v.slug + '">Loading photos…</div>';
+    return list.map(function (src, i) {
+      return '<img src="' + src + '" alt="' + esc(v.name) + " photo " + (i + 1) + '" loading="' + (rank < 3 && i === 0 ? "eager" : "lazy") + '" draggable="false">';
     }).join("");
+  }
+  function fillPhotos(slug) {
+    var list = window.PHOTOS[slug] || [];
+    var pending = document.querySelectorAll('[data-pending="' + slug + '"]');
+    Array.prototype.forEach.call(pending, function (el) {
+      var card = el.closest ? el.closest(".card") : null;
+      var name = card && card.querySelector("h3") ? card.querySelector("h3").textContent : "";
+      if (!list.length) { el.textContent = "Photos coming soon"; return; }
+      el.parentNode.innerHTML = list.map(function (src, i) {
+        return '<img src="' + src + '" alt="' + esc(name) + " photo " + (i + 1) + '" draggable="false">';
+      }).join("");
+    });
+  }
+  function watchVenuePhotos() {
+    var cards = document.querySelectorAll(".card[data-slug]");
+    function start(slug) {
+      loadPhotos(slug).then(function () { fillPhotos(slug); });
+    }
+    if (!("IntersectionObserver" in window)) {
+      Array.prototype.forEach.call(cards, function (c) { start(c.getAttribute("data-slug")); });
+      return;
+    }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        start(en.target.getAttribute("data-slug"));
+        io.unobserve(en.target);
+      });
+    }, { rootMargin: "240px 0px" });
+    Array.prototype.forEach.call(cards, function (c) { io.observe(c); });
+  }
+  function carousel(v, rank) {
+    var imgs = photoImgs(v, rank);
     var n = (v.photos || []).length;
     return '<div class="car" data-n="' + n + '"><div class="track">' + (imgs || '<div class="nophoto">Photos coming soon</div>') + "</div>" +
       '<span class="rank">#' + (rank + 1) + "</span>" +
@@ -43,7 +92,7 @@
         v.photos.map(function (_, i) { return '<button aria-label="Photo ' + (i + 1) + '"' + (i ? "" : ' class="on"') + "></button>"; }).join("") + "</div>" : "") + "</div>";
   }
   function card(v, rank) {
-    return '<article class="card">' + carousel(v, rank) + '<div class="body">' +
+    return '<article class="card" data-slug="' + v.slug + '">' + carousel(v, rank) + '<div class="body">' +
       '<div class="title"><div><h3>' + esc(v.name) + '</h3><div class="town">' + esc(v.town) + '</div></div><span class="badge b-' + v.status + '">' + BADGE[v.status] + "</span></div>" +
       '<div class="facts">' +
       '<div class="fact wide"><div class="k">Price (8 hrs, venue)</div><div class="v">' + esc(v.price) + "</div>" + (v.priceNote ? '<div class="n">' + esc(v.priceNote) + "</div>" : "") + "</div>" +
@@ -74,6 +123,7 @@
       (mode === "cards" ? '<div class="cards">' + list.map(function (v) { return card(v, S.venues.indexOf(v)); }).join("") + "</div>" : table(list)) +
       (list.length ? "" : '<p class="muted">No venues match this filter yet.</p>');
     Array.prototype.forEach.call(document.querySelectorAll(".car"), setupCarousel);
+    watchVenuePhotos();
   }
   $("view-venues").addEventListener("click", function (e) {
     var f = e.target.getAttribute("data-f"), m = e.target.getAttribute("data-m");
@@ -136,6 +186,7 @@
     Array.prototype.forEach.call(document.querySelectorAll(".view"), function (s) { s.classList.toggle("on", s.id === "view-" + v); });
     Array.prototype.forEach.call(document.querySelectorAll(".tabs a"), function (a) { a.classList.toggle("on", a.getAttribute("data-view") === v); });
     window.scrollTo(0, 0);
+    if (v === "venues") watchVenuePhotos();
   }
   renderVenues();
   window.addEventListener("hashchange", route);

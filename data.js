@@ -3,7 +3,7 @@
 // Privacy: never put venue staff phone numbers or emails in this file (the site is public).
 
 window.SITE = {
-  updated: "Thu Nov 12, 2026",
+  updated: "Fri Nov 13, 2026",
   couple: "Bryan & Cristal",
   date: { main: "Sat Nov 13, 2027", backup: "Sat Nov 20, 2027", guests: "about 100" },
 
@@ -28,7 +28,7 @@ window.SITE = {
       price: "About $2,850 for 8 hrs (est.)", priceNote: "$2,500 for 6 hrs; 7th hr $150, then $200/hr",
       ends: "Midnight", ownFood: true, ownDrinks: true, corkage: "No corkage",
       distance: "About 2.5 hrs from SJU (est.)",
-      take: "Ticks every box: covered gazebo for 100, our own food and drinks, cheap. $500 holds the date.",
+      take: "Video tour confirmed: Fri Nov 13 at 12:30 PM Eastern (1:30 PM Puerto Rico time); Judith will call from the hacienda. Ticks every box: covered gazebo for 100, our own food and drinks, cheap. $500 holds the date.",
       includes: "Covered gazebo, bar, stage, 100 chairs, tables, ice, generator, security, A/C dressing room. Free on-site ceremony.",
       link: "https://haciendalmf.com", linkLabel: "haciendalmf.com",
       photos: ["1.jpg","2.jpg","3.jpg","4.jpg"] },
@@ -157,6 +157,7 @@ window.SITE = {
   // Newest first. Copy an entry, change the fields, put it at the top.
   // tone: "good" (green), "wait" (amber), "bad" (red), or "" (neutral)
   journal: [
+    { date: "Nov 13", time: "10:53 AM", title: "La Mia Famiglia: video tour confirmed", text: "Judith Rodriguez confirmed a video tour today, Fri Nov 13, at 12:30 PM Eastern (1:30 PM Puerto Rico time). She will call from the hacienda. This is right after the Los Jardines del Castillo FaceTime at 12:00 PM Eastern.", tag: "Video tour", tone: "good" },
     { date: "Nov 12", time: "6:01 PM", title: "Video tours: one confirmed, five pending", text: "Confirmed: FaceTime with Los Jardines del Castillo (Trujillo Alto) on Fri Nov 13 at 12:00 PM Eastern (1:00 PM Puerto Rico time), with Carol Castillo. Video-tour requests went out Nov 12 to Hacienda Siesta Alegre, Hacienda Campo Rico, Casa de España, Hacienda Santiago and Hacienda La Mia Famiglia; still waiting on replies. Windows we asked for: Fri Nov 13, 12–1 PM or after 5 PM Eastern, or Sat Nov 14, 9 AM–noon Eastern.", tag: "Video tour", tone: "good" },
     { date: "Nov 6", time: "12:14 PM", title: "Scouting trip: prefer Thu–Sun", text: "You and Cristal want a Thursday-to-Sunday trip rather than a full work week. Site options and tour drafts were switched to Thu–Sun windows. No date is locked yet.", tag: "Preference", tone: "" },
     { date: "Oct 30", time: "3:59 PM", title: "María's Luxury Villa (Rincón): both dates open", text: "Villa Bajo Blanco only fits 40, so they offered their sister beach villa for 100. $10,543.50 for a 3-night stay including a $3,000 event fee. We bring everything.", tag: "Available", tone: "good" },
